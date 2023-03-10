@@ -13,6 +13,7 @@ body{
     grid-template-columns: 2fr 10fr;
     grid-template-rows: 10vh 80vh 10vh;
     grid-gap: 0;
+    background-color: whitesmoke;
     
 }
 .header{
@@ -83,6 +84,7 @@ body{
 }
 .logo-2-menu{
     max-width: 12vw;
+    min-width: 5vw;
     padding-top: 2vh;
     padding-bottom: 2vh;
     background-color: whitesmoke;
@@ -111,19 +113,21 @@ body{
     border-radius: 5px;
 }
 .titulo-h2{
-    padding-left: 12vw;
+    padding-left: 8vw;
     color: rgb(58, 57, 57);
     background-color: rgb(224, 224, 224);
 
 }
 .img-especialidade{
     max-width: 14vw;
-    margin-left: 8vw;
+    margin-left: 7vw;
     margin-top: 1vh;
 }
 .paragrafo{
     margin-left: 1.5vw;
     color: rgb(80, 79, 79);
+    text-align: justify;
+    margin-right: 1vw;
 }
 caption{
     font-size: 1.5rem;
@@ -189,11 +193,13 @@ table tfoot td{
 }
 .endereco-footer .hr-footer{
     max-width: 8.2vw;
+    min-width: 8vw;
 }
 .iframe-footer{
     max-width: 24vw;
     max-height: 27vh;
     padding-bottom: 2vh;
+    margin-right: 2vw;
 }
 .hr-footer{
     max-width: 9vw;
@@ -219,4 +225,231 @@ table tfoot td{
     color: whitesmoke;
     background-color: rgb(255, 123, 0);
     
+}
+
+/*________________________________________________________*/
+
+@media(max-width: 1489px){
+    .header h1{
+        margin-left: 15vw;
+        font-size: 1.5rem;
+    }
+    .logo-hospital{
+        max-width: 15vw;
+        max-height: 7vh;
+        margin-left: 1vw;
+        padding-top: 0.5vh;
+       
+    }
+}
+@media(max-width: 1489px){
+    .footer{
+
+        margin-top: 165vh;
+
+    }
+}
+@media(max-width: 1355px){
+    .convenios{
+        margin-left: 20vw;
+    }
+}
+@media(max-width: 1319px){
+    .container-especialistas{
+        margin-left: 20vw;
+    }
+    .container-especialistas h1{
+        font-size: 1.1rem;
+    }
+    .container-especialistas h2{
+        font-size: 1.1rem;
+    }
+    .especialidade{
+        min-width: 17vw;
+    }
+    .especialidade p{
+        font-size: 1rem;
+    }
+    .titulo-h2{
+      padding-left: 1.5vw;
+    }
+    .especialidade img{
+        margin-left: 1.4vw;
+    }
+    .tabela-horarios{
+
+    }
+    caption{
+        font-size: 1.2rem;
+    }
+    .th-1{
+        font-size: 1.1rem;
+    }
+    .dias-th{
+        font-size: 1rem;
+    
+    }
+    tbody tr td{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 1282px){
+    .header h1{
+        margin-left: 25vw;
+        font-size: 1.5rem;
+    }
+    .logo-hospital{
+        max-width: 12vw;
+        max-height: 8vh;
+        margin-left: 1vw;
+        margin-right: 1vw;
+   
+    }
+    .header{
+        flex-wrap: wrap;
+    }
+    .logo-hospital{
+        display: none;
+    }
+}
+@media(max-width: 1117px){
+    .footer{
+        display: block;
+    }
+    .footer section{
+        margin-left: 25vw;
+    }
+}
+@media(max-width: 865px){
+    .header h1{
+        margin-left: 15vw;
+        font-size: 1.5rem;
+    }
+    .main{
+        display: block;
+    }
+    caption{
+        margin-left: -22vw;
+
+    }
+    .container-especialistas{
+        margin-left: 25vw;
+    }
+    .container-1{
+        min-width: 40vw;
+    }
+    .tabela-horarios table{
+        margin-left: 18vw;
+    }
+    .footer{
+        margin-top: 150vh;
+    }
+    .footer section{
+        margin-left: 25vw;
+    }
+    caption{
+        font-size: 1.5rem;
+    }
+    .th-1{
+        font-size: 1.2rem;
+    }
+    .dias-th{
+        font-size: 1.2rem;
+    
+    }
+    tbody tr td{
+        font-size: 1.2rem;
+    }
+     .img-plano{
+        display: none;
+    }
+    blockquote{
+        display: none;
+    }
+    .iframe-footer{
+        max-width: 50vw;
+    }
+}
+@media(max-width: 757px){
+    .header h1{
+        margin-left: 25vw;
+        font-size: 1.2rem;
+    }
+    .logo-hospital{
+        max-width: 12vw;
+        max-height: 8vh;
+        margin-left: 1vw;
+        margin-right: 1vw;
+   
+    }
+    .footer{
+        margin-top: 180vh;
+    }
+    .img-plano{
+        display: none;
+    }
+}
+
+@media(max-width: 757px){
+
+caption{
+    font-size: 1.2rem;
+}
+.th-1{
+    font-size: 1rem;
+}
+.dias-th{
+    font-size: 1rem;
+
+}
+tbody tr td{
+    font-size: 1rem;
+}
+}
+
+@media(max-width: 590px){
+    .header h1{
+        margin-left: 25vw;
+        font-size: 1rem;
+    }
+    caption{
+        font-size: 0.8rem;
+    }
+    .th-1{
+        font-size: 0.7rem;
+    }
+    .dias-th{
+        font-size: 0.7rem;
+    
+    }
+    tbody tr td{
+        font-size: 0.7rem;
+    }
+    .menu ul li a{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 424px){
+    .header h1{
+        margin-left: 25vw;
+        font-size: 1rem;
+    }
+    caption{
+        font-size: 0.6rem;
+    }
+    .th-1{
+        font-size: 0.6rem;
+    }
+    .dias-th{
+        font-size: 0.6rem;
+    
+    }
+    tbody tr td{
+        font-size: 0.6rem;
+    }
+    .footer{
+        margin-top: 190vh;
+    }
 }

@@ -96,9 +96,10 @@ body{
 }
 .contato h1{
     margin-top: 5vh;
-    color: rgb(80, 79, 79);
+    color: #394086;
     font-size: 2rem;
 }
+
 form{
     margin-top: 7vh;
 }
@@ -121,6 +122,17 @@ textarea{
 button{
     margin-left: 3vw;
 }
+.enviar{
+    font-size: 1.2rem;
+    margin-top: 5vh;
+    padding: 5px 15px;
+    color: #394086;
+}
+.reset{
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    color: #394086;
+}
 form hr{
     margin-top: 12vh;
     max-width: 66vw;
@@ -130,12 +142,12 @@ form hr{
 .h1-emailNumero{
     margin-left: 10vw;
     margin-top: 10vh;
-    color: rgb(80, 79, 79);
+    color: #394086;
 }
 .numeroEmail{
 
     display: flex;
-    color: rgb(80, 79, 79);
+    color: #394086;
     margin: 0 auto;
  
 
@@ -238,4 +250,136 @@ form hr{
     color: whitesmoke;
     background-color: rgb(255, 123, 0);
     
+}
+
+/**-------------------------------------------------------------------------------------------*/
+@media(max-width: 663px){
+    .logo-hospital{
+        display: none;
+    }
+   html #body .header .h1-header{
+        margin-left: 25vw;
+           
+    }
+    .hr-1{
+        margin-left: 15vw;
+    }
+   form textarea{
+        margin-left: 15vw;
+        min-width: 70vw;
+    }
+    button{
+        margin-left: 15vw;
+    }
+    .contato .h1-contato{
+        font-size: 1.4rem;
+        margin-left: 15vw;
+    }
+    label{
+        margin-left: 15vw;
+        max-width: 15vw;
+    }
+  .contato form input{
+    justify-content: center;
+    margin-left: 15vw;
+        padding-left: 30vw;
+        max-width: 40vw;
+    }
+    .hr-2{
+        margin-left: 15vw;
+    }
+    main .h1-emailNumero{
+       margin-left: 20vw;
+       font-size: 1rem;
+       padding-bottom: 5vh;
+    }
+    main .numeroEmail div:first-child{
+       
+        margin-left: 30vw;
+        margin-right: 5vw;
+        font-size: 1rem;
+        padding: 0;
+   }
+   .main #hr-3{
+    margin-left: 27vw;
+    padding: 0;
+   }
+   main .numeroEmail div{
+       margin: 0;
+       font-size: 1rem;
+       padding: 0;
+  }
+    main .numeroEmail div h2{
+         margin: 0;
+         font-size: 1rem;
+         padding: 0;
+    }
+    main .numeroEmail div p{
+        margin: 0;
+        font-size: 1rem;
+        padding: 0;
+   }
+   body .main .h1-endereco{
+    font-size: 1.5rem;
+    margin-left: 25vw;
+    margin-top: 5vh;
+    margin-bottom: 0;
+    padding: 0;
+   }
+   .endereco{
+    margin-left: 35vw;
+   }
+   iframe{
+    max-width: 70vw;
+    max-height: 30vh;
+    margin-left: -10vw;
+   }
+   .menu ul li a{
+    font-size: 0.6rem;
+   }
+   .footer{
+    margin-top: 110vh;
+   }
+   .main{
+    max-height: 150vh;
+   }
+   .footer{
+    display: block;
+   }
+   .footer section{
+    margin-left: 25vw;
+   }
+   .footer section h1{
+    font-size: 0.8rem;
+   }
+   .footer section ul li{
+    font-size: 0.8rem;
+   }
+   .mapa > iframe{
+    margin-left: -12vw;
+}
+}
+@media(max-width: 706px){
+    .body .header .h1-header{
+        font-size: 1.1rem;
+           
+    }
+    .h1-emailNumero{
+        font-size: 1.5rem;
+    }
+    .numeroEmail{
+        margin-left: -10vw;
+    }
+
+}
+@media(max-width: 1467px){
+   .mapa > iframe{
+        max-width: 70vw;
+    }
+
+@media(max-width: 1467px){
+    header .h1-header{
+    font-size: 1.5rem;
+    
+    }
 }

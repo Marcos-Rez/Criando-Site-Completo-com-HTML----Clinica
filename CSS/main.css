@@ -13,6 +13,7 @@ body{
     grid-template-columns: 2fr 10fr;
     grid-template-rows: 10vh 80vh 10vh;
     grid-gap: 0;
+    background-color: whitesmoke;
     
 }
 .header{
@@ -21,7 +22,7 @@ body{
     height: 100vh;
     grid-column: 2/3;
 }
-.header h1{
+.h1-header{
     
     margin-left: 20vw;
     font-size: 2rem;
@@ -51,7 +52,6 @@ body{
     font-size: 1.24rem;
 }
 .main{
-    background-color: darkkhaki;
     height: 80vh;
     grid-column: 2/2;
     grid-row: 2/2;
@@ -94,7 +94,8 @@ body{
     min-width: 100vw;
     max-height: 60vh;
    
-}.governanca{
+}
+.governanca{
     min-width: 100vw;
     min-height: 60vh;
     background-color: rgb(35, 92, 146);
@@ -227,14 +228,14 @@ body{
     max-width: 30vw;
     padding-bottom: 5vh;
 }
-/* background-image: url('../IMG/hospital-1.jpg');*/
+/*________________________________________________________________________________________________________________*/
 
 .footer{
     background-color: whitesmoke;
     max-height: 50vh;
     grid-column: 2/3;
     grid-row: 4/5;
-    margin-top: 295vh;
+    margin-top: 300vh;
     display: flex;
     color: rgb(80, 79, 79);
 }
@@ -260,6 +261,7 @@ body{
     max-width: 24vw;
     max-height: 27vh;
     padding-bottom: 2vh;
+    margin-right: 2vw;
 }
 .hr-footer{
     max-width: 9vw;
@@ -270,4 +272,391 @@ body{
 .mapa-footer-1{
     padding-top: 3vh;
     margin-left: 2vw;
+}
+
+
+
+/*_____________________________________________________________________________________________________________*/
+@media (max-width: 511px){
+     #body #main #tituloGovernanca{
+        max-width: 10vw;
+      }
+      #body #main #tituloFormacao{
+        max-width: 10vw;
+      }
+      #body #main #tituloProtocolo{
+        max-width: 10vw;
+      }
+      #body #main #tituloGovernanca h1{
+        font-size: 1.4rem;
+      }
+      #body #main #tituloFormacao h1{
+        font-size: 1.4rem;
+      }
+      #body #main #tituloProtocolo h1{
+        font-size: 1.4rem;
+      }
+      .governanca-texto{
+        display: block;
+        flex-wrap: wrap;
+    }
+    .formacao_qualificacao_texto{
+        display: block;
+        flex-wrap: wrap;
+       
+    }
+    .protocolos-institucionais_texto{
+        display: block;
+        flex-wrap: wrap;
+       
+    }
+    #html #body > #convênios{
+        margin-top: 190vh;
+       
+    }
+}
+@media (max-width: 668px){
+
+    .governanca-texto{
+        display: block;
+        flex-wrap: wrap;
+    }
+    .formacao_qualificacao_texto{
+        display: block;
+        flex-wrap: wrap;
+    }
+    .protocolos-institucionais_texto{
+        display: block;
+        flex-wrap: wrap;
+    }
+    .img-qualificacao{
+        margin-left: 50vw;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .governanca-texto .img-governanca{
+        margin-left: 50vw;
+    }
+    .img-protocolos-institucionais{
+        margin-left: 50vw;
+    }
+    .footer{
+        display: block;
+    }
+    .contato{
+        margin-left: 20vw;
+    }
+    .endereco-footer{
+        margin-left: 20vw;
+    }
+    .mapa-footer-1{
+        margin-left: 20vw;
+    }
+    .mapa-footer-1 .iframe-footer{
+        min-width: 50vw;
+    }
+
+
+    .html #body > #convênios{
+        margin-top: 150vh;
+       
+    }
+    .footer .li-footer{
+        font-size: 0.7rem;
+    }
+    
+    
+}
+
+@media (max-width: 944px){
+    #body .header .h1-header{
+        font-size: 1.2rem;
+       
+    }
+    .ul-menu > .li-menu > a{
+        font-size: 0.8rem;
+    }
+      #body #main .governanca-texto .paragrafos{
+        font-size: 0.8rem;
+      }
+      .img-governanca{
+        max-width: 25vw;
+      }
+      #body #main .formacao_qualificacao_texto .paragrafos{
+        font-size: 0.8rem;
+      }
+      .img-qualificacao{
+        max-width: 25vw;
+        max-height: 25vh;
+      }
+      #body #main .protocolos-institucionais_texto .paragrafos{
+        font-size: 0.8rem;
+      }
+      .img-protocolos-institucionais{
+        max-width: 25vw;
+     
+      }
+
+}
+
+@media (max-width: 944px){
+    main .governanca h1{
+        font-size: 3rem;
+      }
+    main .formacao_qualificacao h1{
+        font-size: 3rem;
+    }
+
+    
+    main .protocolos-institucionais h1{
+        font-size: 3rem;
+    
+    }
+    .hr-1{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .hr-2{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .hr-3{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    body .footer{
+        margin-top: 205.3vh;
+        
+    }
+    .mapa-footer-1 .iframe-footer{
+        max-width: 20vw;
+        max-height: 10vh;
+        padding-bottom: 2vh;
+    }
+    .img-protocolos-institucionais{
+        max-height: 20vh;
+    }
+    .h1-footer{
+        font-size: 1rem;
+    }
+    .li-footer{
+        font-size: 1rem;
+    }
+    html #body > #convênios{
+        margin-top: 140vh;
+       
+    }
+
+}
+@media (max-width:1173px){
+    .body .header .h1-header{
+        font-size: 1.2rem;
+       
+    }
+    html .body > #convênios{
+        margin-top: 110vh;
+       
+    }
+
+    main .governanca h1{
+        min-height: 10vh;
+        padding: 3vh;
+      }
+    main .formacao_qualificacao h1{
+        min-height: 10vh;
+        padding: 3vh;
+    }
+    main .protocolos-institucionais h1{
+        min-height: 10vh;
+        padding: 3vh;
+    }
+    .body > #convênios{
+        margin-top: 100vh;
+        
+    }
+
+}
+@media (max-width:1247px){
+    .body .header .h1-header{
+        font-size: 1.7rem;
+       
+    }
+    main .governanca{
+        min-height: 23vh;
+  
+      }
+   main .formacao_qualificacao{
+        min-height: 23vh;
+    }
+    main .protocolos-institucionais{
+        min-height: 23vh;
+    }
+
+   main .governanca-texto p{
+        padding-top: 5vh;
+     
+        padding-left: 20vw;
+        padding-right: 5vw;
+        font-size: 1.2rem;
+    } 
+   .governanca-texto .img-governanca{
+        margin-top: 5vh;
+        margin-right: 7vw;
+        max-height: 20vh;
+        padding-bottom: 5vh;
+    }
+    main .formacao_qualificacao_texto p{
+        padding-top: 5vh;
+        padding-left: 20vw;
+        padding-right: 5vw;
+        font-size: 1.2rem;
+    }
+    .formacao_qualificacao_texto .img-qualificacao{
+        margin-top: 5vh;
+        margin-right: 7vw;
+        max-height: 20vh;
+        padding-bottom: 5vh;
+    }
+
+    main .protocolos-institucionais_texto p{
+        padding-top: 5vh;
+        padding-left: 20vw;
+        padding-right: 5vw;
+        font-size: 1.2rem;
+    }
+    body #main{
+        max-height: 50vh;
+    }
+   .body > #convênios{
+        margin-top: 91vh;
+        
+    }
+}
+@media (max-width:1385px){
+    body .header .h1-header{
+        font-size: 1.7rem;
+       
+    }
+    .logo-hospital{
+        display: none;
+    }
+    .header .h1-header{
+        font-size: 1.2rem;
+        margin-top: 4vh;
+        margin-right: 0;
+    }
+    .logo-hospital{
+        max-width: 15vw;
+        max-height: 8vh;
+        margin-left: 2vw;
+        margin-top: 1.6vh;
+       
+    }
+
+    .governanca{
+      min-height: 40vh;
+
+    }
+    .img-governanca{
+        margin-top: 5vh;
+      
+        max-height: 35vh;
+        padding-bottom: 5vh;
+    }
+    .governanca-texto p{
+        padding-top: 10vh;
+        font-size: 1.2rem;
+    }
+    .formacao_qualificacao{
+        min-height: 40vh;
+    }
+    .formacao_qualificacao_texto p{
+        padding-top: 10vh;
+        font-size: 1.2rem;
+    }
+    .img-qualificacao{
+        margin-top: 5vh;
+
+        max-height: 35vh;
+    }
+    .protocolos-institucionais{
+        min-height: 40vh;
+    }
+    .protocolos-institucionais_texto p{
+        padding-top: 10vh;
+        font-size: 1.2rem;
+        padding-bottom: 5vh;
+    }
+    #convênios{
+        margin-top: 150vh;
+        
+    }
+
+
+}
+
+@media (max-width:1490px){
+    header .h1-header{
+        font-size: 1.8rem;
+        margin-top: 4vh;
+    }
+   header .logo-hospital{
+        max-width: 12vw;
+        max-height: 7vh;
+        margin-left: 1vw;
+        margin-top: 1.6vh;
+       
+    }
+    .img-governanca{
+        margin-top: 5vh;
+      
+        max-height: 35vh;
+        padding-bottom: 5vh;
+    }
+    .governanca-texto p{
+        padding-top: 10vh;
+        font-size: 1.2rem;
+    }
+
+    .formacao_qualificacao_texto p{
+        padding-top: 10vh;
+        font-size: 1.2rem;
+    }
+    .img-qualificacao{
+        margin-top: 5vh;
+
+        max-height: 35vh;
+    }
+    .protocolos-institucionais_texto p{
+        padding-top: 10vh;
+        font-size: 1.2rem;
+        padding-bottom: 5vh;
+    }
+
+   body .footer{
+        margin-top: 205.3vh;
+        
+    }
+    .iframe-footer{
+        max-width: 24vw;
+        max-height: 20vh;
+        padding-bottom: 2vh;
+    }
+    
+}
+
+@media (max-width:1634px){
+    .h1-header{
+        font-size: 1.9rem;
+       
+    }
+    .logo-hospital{
+        max-width: 15vw;
+        max-height: 8vh;
+        margin-left: 2vw;
+        margin-top: 1.6vh;
+       
+    }
+
 }

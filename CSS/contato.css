@@ -9,6 +9,7 @@ li{
     list-style: none;
 }
 body{
+    
     display: grid;
     grid-template-columns: 2fr 10fr;
     grid-template-rows: 10vh 80vh 10vh;
@@ -337,8 +338,9 @@ form hr{
    .menu ul li a{
     font-size: 0.6rem;
    }
-   .footer{
-    margin-top: 110vh;
+   .html #body .footer{
+    margin-top: 10vh;
+    background-color: #bcbfe7;
    }
    .main{
     max-height: 150vh;
